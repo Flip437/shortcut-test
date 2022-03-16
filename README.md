@@ -36,5 +36,7 @@ RSPEC TESTS:
 to Run RSpec test, execute bundle exec rpsec at root. 
 
 
+
 Have fun :)
+
 Philippe
