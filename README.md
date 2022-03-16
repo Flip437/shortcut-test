@@ -31,7 +31,8 @@ MANUAL TESTS:
 9. Building.import_csv("", ["city"])
 10. tp Buildgin.all : you can see that first building city is still Lyon. We did not overwrite the city because Paris was in the backlog for that building and we specified that we were tracking city field in the last import.
 
-RSPEC TESTS
+RSPEC TESTS:
+
 to Run RSpec test, execute bundle exec rpsec at root. 
 
 
