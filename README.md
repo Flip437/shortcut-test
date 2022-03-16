@@ -4,9 +4,11 @@ Hello,
 here is the app I ended with for the test.
 
 How is it working:
+
 I create a method called import_csv that takes 2 optionnal arguments:
 - file extension to select wich file in ../csv_imports folder you want to import
 - an array on fields you do not want to overwrite at each import. I call them "tracked" fields. For example if you do not want to overwrite the "adress" and the "city" field for Building model, just pass ["adress", "city"] to the second argument of import_csv method.
+
 I created a Backlog model that store all different values of all attributes for any model plugged to that Backlog model.
 
 STEPS:
